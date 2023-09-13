@@ -28,7 +28,9 @@
 	<slot />
 </div>
 
-<footer class="flex justify-between items-center p-2 dark:bg-zinc-900 shadow-md mt-2" />
+<footer class="flex justify-center items-center p-2 dark:bg-zinc-900 shadow-md mt-2">
+	© 2023 Andreas Poulsen
+</footer>
 
 <style lang="postcss">
 	#content {
