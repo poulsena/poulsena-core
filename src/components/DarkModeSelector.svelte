@@ -1,5 +1,8 @@
 <script>
 	import { updateTheme } from '$lib/utils/themeUpdate.js';
+
+	export let size = 18;
+
 	function darkMode() {
 		localStorage.theme = 'dark';
 		updateTheme();
@@ -20,8 +23,8 @@
 	<button on:click={darkMode}
 		><svg
 			class="dark:invert"
-			width="16px"
-			height="16px"
+			width="{size}px"
+			height="{size}px"
 			viewBox="0 0 24 24"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
@@ -43,8 +46,8 @@
 	<button on:click={lightMode}
 		><svg
 			class="dark:invert"
-			width="16px"
-			height="16px"
+			width="{size}px"
+			height="{size}px"
 			viewBox="0 0 24 24"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
@@ -66,8 +69,8 @@
 	<button on:click={systemMode}
 		><svg
 			class="dark:invert"
-			width="16px"
-			height="16px"
+			width="{size}px"
+			height="{size}px"
 			viewBox="0 0 24 24"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
