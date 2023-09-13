@@ -1,3 +1,7 @@
+<script>
+	import PageHeader from '$lib/components/PageHeader.svelte';
+</script>
+
 <title>poulsena</title>
 
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<PageHeader />
